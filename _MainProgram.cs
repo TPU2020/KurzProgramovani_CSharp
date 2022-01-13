@@ -28,11 +28,14 @@ namespace KurzProgramovani_CSharp
                     case "A13":
                         A13.Run(args);
                         break;
+                    case "B14":
+                        B14.Run(args);
+                        break;
                     default:
                         Console.WriteLine("\nNeznámý program...Prosím zvolte znovu...");
                         break;
                 }
-                Console.WriteLine("Pro ukončení programu stiskni (n), opakování stikni jinou libovolnou klávesu");
+                Console.WriteLine("\nPro ukončení programu stiskni (n), opakování stikni jinou libovolnou klávesu");
             } while (Console.ReadKey().KeyChar != 'n');
 
         }
