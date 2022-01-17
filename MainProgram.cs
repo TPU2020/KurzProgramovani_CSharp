@@ -15,11 +15,12 @@ namespace KurzProgramovani_CSharp
                 Console.WriteLine("                   2022 \n");
 
 
-                Console.WriteLine("\nZvol si program, kterých chceš spustit");
-                Console.WriteLine("A12 A13");
-                Console.WriteLine("B14 B15 B16 B17 B18");
-                Console.WriteLine("C12 C13 C14 C15 C16 C17");
-                Console.WriteLine("E9  E10 E11 E12 E13 E14 E15");
+                Console.WriteLine("\nZvol si program, kterých chceš spustit\n");
+                Console.WriteLine("A12\tA13");
+                Console.WriteLine("B14\tB15\tB16\tB17\tB18");
+                Console.WriteLine("C12\tC13\tC14\tC15\tC16\tC17");
+                Console.WriteLine("E9\tE10\tE11\tE12\tE13\tE14\tE15");
+                Console.WriteLine("F1_4\tF1_8");
 
                 programSelected = Console.ReadLine();
                 programSelected = programSelected.ToUpper();
@@ -89,6 +90,27 @@ namespace KurzProgramovani_CSharp
                         break;
                     case "E15":
                         E15.Run(args);
+                        break;
+                    case "E16":
+                        E16.Run(args);
+                        break;
+                    case "F1_4":
+                        F1_4.Run(args);
+                        break;
+                    case "F1_8":
+                        F1_8.Run(args);
+                        break;
+                    case "F1_9":
+                        F1_9.Run(args);
+                        break;
+                    case "F1_10":
+                        F1_10.Run(args);
+                        break;
+                    case "F1_11":
+                        F1_11.Run(args);
+                        break;
+                    case "F1_12":
+                        F1_12.Run(args);
                         break;
                     default:
                         Console.WriteLine("\nNeznámý program...Prosím zvolte znovu...");
