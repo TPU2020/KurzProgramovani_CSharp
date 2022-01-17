@@ -18,7 +18,8 @@ namespace KurzProgramovani_CSharp
                 Console.WriteLine("\nZvol si program, kterých chceš spustit");
                 Console.WriteLine("A12 A13");
                 Console.WriteLine("B14 B15 B16 B17 B18");
-                Console.WriteLine("C12");
+                Console.WriteLine("C12 C13 C14 C15 C16 C17");
+                Console.WriteLine("E9  E10 E11 E12 E13 E14 E15");
 
                 programSelected = Console.ReadLine();
                 programSelected = programSelected.ToUpper();
@@ -49,6 +50,45 @@ namespace KurzProgramovani_CSharp
                         break;
                     case "C12":
                         C12.Run(args);
+                        break;
+                    case "C13":
+                        C13.Run(args);
+                        break;
+                    case "C14":
+                        C14.Run(args);
+                        break;
+                    case "C15":
+                        C15.Run(args);
+                        break;
+                    case "C16":
+                        C16.Run(args);
+                        break;
+                    case "C17":
+                        C17.Run(args);
+                        break;
+                    case "C18":
+                        C18.Run(args);
+                        break;
+                    case "E9":
+                        E9.Run(args);
+                        break;
+                    case "E10":
+                        E10.Run(args);
+                        break;
+                    case "E11":
+                        E11.Run(args);
+                        break;
+                    case "E12":
+                        E12.Run(args);
+                        break;
+                    case "E13":
+                        E13.Run(args);
+                        break;
+                    case "E14":
+                        E14.Run(args);
+                        break;
+                    case "E15":
+                        E15.Run(args);
                         break;
                     default:
                         Console.WriteLine("\nNeznámý program...Prosím zvolte znovu...");
