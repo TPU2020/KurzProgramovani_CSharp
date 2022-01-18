@@ -20,7 +20,8 @@ namespace KurzProgramovani_CSharp
                 Console.WriteLine("B14\tB15\tB16\tB17\tB18");
                 Console.WriteLine("C12\tC13\tC14\tC15\tC16\tC17");
                 Console.WriteLine("E9\tE10\tE11\tE12\tE13\tE14\tE15");
-                Console.WriteLine("F1_4\tF1_8");
+                Console.WriteLine("F1_4\tF1_8\tF1_9\tF1_10\tF1_11\tF1_12");
+                Console.WriteLine("F2_1\tF2_2\tF2_3\tF2_4\tF2_5\tF2_6\tF2_7\tF2_8\tF2_9\tF2_10\tF2_11\tF2_12");
 
                 programSelected = Console.ReadLine();
                 programSelected = programSelected.ToUpper();
@@ -111,6 +112,42 @@ namespace KurzProgramovani_CSharp
                         break;
                     case "F1_12":
                         F1_12.Run(args);
+                        break;
+                    case "F2_1":
+                        F2_1.Run(args);
+                        break;
+                    case "F2_2":
+                        F2_2.Run(args);
+                        break;
+                    case "F2_3":
+                        F2_3.Run(args);
+                        break;
+                    case "F2_4":
+                        F2_4.Run(args);
+                        break;
+                    case "F2_5":
+                        F2_5.Run(args);
+                        break;
+                    case "F2_6":
+                        F2_6.Run(args);
+                        break;
+                    case "F2_7":
+                        F2_7.Run(args);
+                        break;
+                    case "F2_8":
+                        F2_8.Run(args);
+                        break;
+                    case "F2_9":
+                        F2_9.Run(args);
+                        break;
+                    case "F2_10":
+                        F2_10.Run(args);
+                        break;
+                    case "F2_11":
+                        F2_11.Run(args);
+                        break;
+                    case "F2_12":
+                        F2_12.Run(args);
                         break;
                     default:
                         Console.WriteLine("\nNeznámý program...Prosím zvolte znovu...");
